@@ -1,0 +1,59 @@
+.button {
+    -fx-background-color:    #C71585; /* Color de fondo rosa (Hot Pink) */
+    -fx-text-fill: white; /* Color del texto blanco */
+    -fx-font-weight: bold; /* Texto en negrita */
+}
+
+
+/* Estilo para la TableView */
+.table-view {
+    -fx-border-color: transparent;
+    -fx-background-color: white;
+    -fx-table-cell-border-color: #FF9AB0;
+    -fx-alternate-row-fill-visible: true;
+    -fx-control-inner-background: white;
+    -fx-control-inner-background-alt: #FFDCE5; /* Color de fondo alternado */
+}
+
+.table-view .column-header {
+    -fx-background-color: #C71585; /* Fondo rosa oscuro del encabezado */
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white; /* Texto blanco en el encabezado */
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER; /* Centrado del texto en los encabezados */
+}
+
+.table-view .table-cell {
+    -fx-alignment: CENTER;
+    -fx-padding: 4px;
+    -fx-border-width: 0 2px 2px 0;
+    -fx-border-color: #FF4A91;
+}
+
+.table-view .table-cell:selected {
+    -fx-background-color: #FF4A91; /* Color de la celda seleccionada */
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white; /* Texto blanco en el encabezado */
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER; /* Centrado del texto en los encabezados */
+}
+
+/* Estilo del menú contextual */
+.context-menu {
+    -fx-background-color: #FFDCE5;
+    -fx-border-color: #FF4A91;
+}
+.context-menu .menu-item {
+    -fx-padding: 4px 20px;
+    -fx-text-fill: black;
+}
+.context-menu .menu-item:selected {
+    -fx-background-color: #FF4A91;
+    -fx-text-fill: white;
+}
+
